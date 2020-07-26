@@ -1,0 +1,54 @@
+.navbar{
+    background-color: #2e86de;
+    color:  #fff;
+}
+
+#upload-pic{
+     width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.upload{
+    background-color: #27ae60;
+    color :#fff;
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+   
+    margin-top: 10px;
+}
+.main{
+    text-align: center;
+    width: 90% !important;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 10px;
+}
+
+.ico{
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.form{
+    width:20%;
+}
+
+.form-group{
+    margin-bottom: 0 !important;
+}
+
+.label{
+    margin-bottom: 0 !important;
+}
+
+
+@media screen and (max-width:666px){
+.form{
+    width:50%;
+}
+
+}
