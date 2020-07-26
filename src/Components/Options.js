@@ -32,7 +32,7 @@ export default function Options(props) {
     const blob = new Blob([response.data], { type: `image/${format}` });
     const url = window.URL.createObjectURL(blob);
     ReactDOM.render(
-      <a href={`${url}`} download="download image" class="btn btn-primary my-4">
+      <a href={`${url}`} download="download image" className="btn btn-primary my-4">
         {" "}
         Download Image
       </a>,
@@ -56,7 +56,7 @@ export default function Options(props) {
           />
         </div>
         <div className="form-group">
-          <label for="height" class="label"></label>
+          <label for="height" className="label"></label>
           <input
             placeholder="Height"
             className="form-control"
@@ -68,19 +68,19 @@ export default function Options(props) {
           />
         </div>
         <div className="form-group my-4">
-          <label for="range" class="label">
+          <label for="range" className="label">
             Image quality : {`${quality}%`}
           </label>
           <input
             type="range"
-            class="form-control-range"
+            className="form-control-range"
             name="quality"
             onChange={(e) => inputChng(e)}
           ></input>
         </div>
         <div className="form-group">
           <select
-            class="form-control"
+            className="form-control"
             name="select"
             onChange={(e) => inputChng(e)}
           >

@@ -34,7 +34,7 @@ export default function Main() {
         accept="image/*"
         onChange={(e) => fileInput(e)}
       />
-      <label for="upload-pic" class="btn my-4 upload">
+      <label for="upload-pic" className="btn my-4 upload">
         <span className="material-icons ico">publish</span> Upload Image
       </label>
       <div className="container mb-2">
